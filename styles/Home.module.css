@@ -1,0 +1,74 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #891ed0, #188188cc)
+}
+
+.topBanner {
+  /* border: 4px solid red; */
+  position: sticky;
+  display: flex;
+  top: 0;
+  align-items: center;
+  height: 8vh;
+  z-index: 3;
+  background-color: #891ed0;
+  justify-content: space-between;
+}
+
+.connect {
+  padding: 10px;
+  /* border: 2px solid green; */
+}
+
+.ethLogo {
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  font-size: x-large;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 0.25em;
+}
+
+.selectionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(100vw / 2.7);
+  margin-top: 100px;
+  justify-content: center;
+  height: 60vh;
+  width: 25vw;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 2em;
+}
+
+.mintButton {
+  position: absolute;
+  bottom: 30px;
+}
+
+.zodiacSelection {
+  position: absolute;
+  top: 30px;
+}
+
+.nftPreview {
+  position: absolute;
+  bottom: 110px;
+  top: 120px;
+  background-color: black;
+  border-radius: 0.7em;
+  width: 80%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+}
